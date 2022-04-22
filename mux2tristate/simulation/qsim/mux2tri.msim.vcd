@@ -1,0 +1,219 @@
+$comment
+	File created using the following command:
+		vcd file mux2tri.msim.vcd -direction
+$end
+$date
+	Tue Mar 29 11:27:15 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module mux2tri_vlg_vec_tst $end
+$var reg 4 ! d0 [3:0] $end
+$var reg 4 " d1 [3:0] $end
+$var reg 1 # s $end
+$var wire 1 $ y [3] $end
+$var wire 1 % y [2] $end
+$var wire 1 & y [1] $end
+$var wire 1 ' y [0] $end
+
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var tri1 1 + devclrn $end
+$var tri1 1 , devpor $end
+$var tri1 1 - devoe $end
+$var wire 1 . y[0]~output_o $end
+$var wire 1 / y[1]~output_o $end
+$var wire 1 0 y[2]~output_o $end
+$var wire 1 1 y[3]~output_o $end
+$var wire 1 2 d0[0]~input_o $end
+$var wire 1 3 s~input_o $end
+$var wire 1 4 d1[0]~input_o $end
+$var wire 1 5 t0|y[0]~0_combout $end
+$var wire 1 6 d0[1]~input_o $end
+$var wire 1 7 d1[1]~input_o $end
+$var wire 1 8 t0|y[1]~1_combout $end
+$var wire 1 9 d0[2]~input_o $end
+$var wire 1 : d1[2]~input_o $end
+$var wire 1 ; t0|y[2]~2_combout $end
+$var wire 1 < d0[3]~input_o $end
+$var wire 1 = d1[3]~input_o $end
+$var wire 1 > t0|y[3]~3_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b101 !
+b1010 "
+0#
+1'
+0&
+1%
+0$
+0(
+1)
+x*
+1+
+1,
+1-
+1.
+0/
+10
+01
+12
+03
+04
+15
+06
+17
+08
+19
+0:
+1;
+0<
+1=
+0>
+$end
+#100000
+1#
+13
+1>
+0;
+18
+05
+0.
+1/
+00
+11
+1$
+0%
+1&
+0'
+#200000
+0#
+03
+0>
+1;
+08
+15
+1.
+0/
+10
+01
+0$
+1%
+0&
+1'
+#300000
+1#
+13
+1>
+0;
+18
+05
+0.
+1/
+00
+11
+1$
+0%
+1&
+0'
+#400000
+0#
+03
+0>
+1;
+08
+15
+1.
+0/
+10
+01
+0$
+1%
+0&
+1'
+#500000
+1#
+13
+1>
+0;
+18
+05
+0.
+1/
+00
+11
+1$
+0%
+1&
+0'
+#600000
+0#
+03
+0>
+1;
+08
+15
+1.
+0/
+10
+01
+0$
+1%
+0&
+1'
+#700000
+1#
+13
+1>
+0;
+18
+05
+0.
+1/
+00
+11
+1$
+0%
+1&
+0'
+#800000
+0#
+03
+0>
+1;
+08
+15
+1.
+0/
+10
+01
+0$
+1%
+0&
+1'
+#900000
+1#
+13
+1>
+0;
+18
+05
+0.
+1/
+00
+11
+1$
+0%
+1&
+0'
+#1000000

@@ -1,0 +1,15 @@
+|tristate
+a[0] => y[0].DATAIN
+a[1] => y[1].DATAIN
+a[2] => y[2].DATAIN
+a[3] => y[3].DATAIN
+s => y[0].OE
+s => y[1].OE
+s => y[2].OE
+s => y[3].OE
+y[0] <= y[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

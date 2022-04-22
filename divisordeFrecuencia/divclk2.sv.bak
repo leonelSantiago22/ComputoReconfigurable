@@ -1,0 +1,11 @@
+module divclk2(	input logic clk,
+						input logic reset,
+						output logic clk2);
+			
+				always_ff@(posedge clk)
+					if(reset)
+						clk<= '0';
+					else
+						clk2 <= ~clk;	//El inverso de clk
+endmodule
+			

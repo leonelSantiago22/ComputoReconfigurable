@@ -1,0 +1,6 @@
+module sillyfuction(input logic a,b,c
+										output logic y);
+			assing y = ~ a & ~b & ~c |
+							a & ~b & ~c |
+							a & ~b &c;
+end module

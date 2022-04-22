@@ -1,0 +1,259 @@
+$comment
+	File created using the following command:
+		vcd file mux2_8.msim.vcd -direction
+$end
+$date
+	Tue Mar 29 11:37:22 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module mux2_8_vlg_vec_tst $end
+$var reg 8 ! d0 [7:0] $end
+$var reg 8 " d1 [7:0] $end
+$var reg 1 # s $end
+$var wire 1 $ y [7] $end
+$var wire 1 % y [6] $end
+$var wire 1 & y [5] $end
+$var wire 1 ' y [4] $end
+$var wire 1 ( y [3] $end
+$var wire 1 ) y [2] $end
+$var wire 1 * y [1] $end
+$var wire 1 + y [0] $end
+
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var tri1 1 / devclrn $end
+$var tri1 1 0 devpor $end
+$var tri1 1 1 devoe $end
+$var wire 1 2 y[0]~output_o $end
+$var wire 1 3 y[1]~output_o $end
+$var wire 1 4 y[2]~output_o $end
+$var wire 1 5 y[3]~output_o $end
+$var wire 1 6 y[4]~output_o $end
+$var wire 1 7 y[5]~output_o $end
+$var wire 1 8 y[6]~output_o $end
+$var wire 1 9 y[7]~output_o $end
+$var wire 1 : d1[0]~input_o $end
+$var wire 1 ; s~input_o $end
+$var wire 1 < d0[0]~input_o $end
+$var wire 1 = lsbmux|y[0]~0_combout $end
+$var wire 1 > d1[1]~input_o $end
+$var wire 1 ? d0[1]~input_o $end
+$var wire 1 @ lsbmux|y[1]~1_combout $end
+$var wire 1 A d1[2]~input_o $end
+$var wire 1 B d0[2]~input_o $end
+$var wire 1 C lsbmux|y[2]~2_combout $end
+$var wire 1 D d1[3]~input_o $end
+$var wire 1 E d0[3]~input_o $end
+$var wire 1 F lsbmux|y[3]~3_combout $end
+$var wire 1 G d1[4]~input_o $end
+$var wire 1 H d0[4]~input_o $end
+$var wire 1 I msbmux|y[0]~0_combout $end
+$var wire 1 J d1[5]~input_o $end
+$var wire 1 K d0[5]~input_o $end
+$var wire 1 L msbmux|y[1]~1_combout $end
+$var wire 1 M d1[6]~input_o $end
+$var wire 1 N d0[6]~input_o $end
+$var wire 1 O msbmux|y[2]~2_combout $end
+$var wire 1 P d1[7]~input_o $end
+$var wire 1 Q d0[7]~input_o $end
+$var wire 1 R msbmux|y[3]~3_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b101 !
+b1010 "
+0#
+1+
+0*
+1)
+0(
+0'
+0&
+0%
+0$
+0,
+1-
+x.
+1/
+10
+11
+12
+03
+14
+05
+06
+07
+08
+09
+0:
+0;
+1<
+1=
+1>
+0?
+0@
+0A
+1B
+1C
+1D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+$end
+#100000
+1#
+1;
+1F
+0C
+1@
+0=
+02
+13
+04
+15
+1(
+0)
+1*
+0+
+#200000
+0#
+0;
+0F
+1C
+0@
+1=
+12
+03
+14
+05
+0(
+1)
+0*
+1+
+#300000
+1#
+1;
+1F
+0C
+1@
+0=
+02
+13
+04
+15
+1(
+0)
+1*
+0+
+#400000
+0#
+0;
+0F
+1C
+0@
+1=
+12
+03
+14
+05
+0(
+1)
+0*
+1+
+#500000
+1#
+1;
+1F
+0C
+1@
+0=
+02
+13
+04
+15
+1(
+0)
+1*
+0+
+#600000
+0#
+0;
+0F
+1C
+0@
+1=
+12
+03
+14
+05
+0(
+1)
+0*
+1+
+#700000
+1#
+1;
+1F
+0C
+1@
+0=
+02
+13
+04
+15
+1(
+0)
+1*
+0+
+#800000
+0#
+0;
+0F
+1C
+0@
+1=
+12
+03
+14
+05
+0(
+1)
+0*
+1+
+#900000
+1#
+1;
+1F
+0C
+1@
+0=
+02
+13
+04
+15
+1(
+0)
+1*
+0+
+#1000000

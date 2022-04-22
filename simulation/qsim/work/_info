@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Leonel/Documents/UTM/Semestre4/ComputoReconfigurable/Quartus/simulation/qsim
+vSillyFuction
+!s110 1648144132
+!i10b 1
+!s100 4RUd1JoAMWXIoX57KJU`A1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7I0SYW^n5cIVh1AHcQooU1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1648144128
+8SillyFuction.vo
+FSillyFuction.vo
+!i122 0
+L0 32 132
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1648144132.000000
+!s107 SillyFuction.vo|
+!s90 -work|work|SillyFuction.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@silly@fuction
+vSillyFuction_vlg_vec_tst
+!s110 1648144133
+!i10b 1
+!s100 6G2OFBKT3Q:T1=A[fO4]21
+R1
+I4_AMT<@W;;1[J5LI3f5RK2
+R2
+R0
+w1648144126
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 50
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+n@silly@fuction_vlg_vec_tst

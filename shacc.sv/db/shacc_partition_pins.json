@@ -1,0 +1,285 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out_acc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_acc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_acc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_acc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh1[8]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh1[9]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh1[10]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh1[11]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh1[12]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh1[13]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh1[14]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh1[15]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sh2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "in_acc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "in_acc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "in_acc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "in_acc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh1[8]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh1[9]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh1[10]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh1[11]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh1[12]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh1[13]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh1[14]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "in_sh2[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

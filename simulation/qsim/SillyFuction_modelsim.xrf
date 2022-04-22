@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Leonel/Documents/UTM/Semestre4/ComputoReconfigurable/Quartus/sillyfuction.sv
+design_name = SillyFuction
+instance = comp, \y~output , y~output, SillyFuction, 1
+instance = comp, \a~input , a~input, SillyFuction, 1
+instance = comp, \b~input , b~input, SillyFuction, 1
+instance = comp, \c~input , c~input, SillyFuction, 1
+instance = comp, \y~0 , y~0, SillyFuction, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, SillyFuction, 1

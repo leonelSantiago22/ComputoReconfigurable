@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Leonel/Documents/UTM/Semestre4/ComputoReconfigurable/Quartus/mux2_8/simulation/qsim
+vmux2_8
+Z1 !s110 1648575441
+!i10b 1
+!s100 J7ZL<>h`<_j6XB9Zd<De`0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<^5hP6DUPKH=]@EWPJ6>m2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1648575440
+8mux2_8.vo
+Fmux2_8.vo
+!i122 0
+L0 32 547
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1648575441.000000
+!s107 mux2_8.vo|
+!s90 -work|work|mux2_8.vo|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vmux2_8_vlg_vec_tst
+R1
+!i10b 1
+!s100 PBUZ8[afm0I7nTNz]]NnJ1
+R2
+I1NNY;4ZER<c09;<lH[z]R2
+R3
+R0
+R4
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 110
+R5
+r1
+!s85 0
+31
+R6
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R7
+R8

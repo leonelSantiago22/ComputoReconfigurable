@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Leonel/Documents/UTM/Semestre4/ComputoReconfigurable/Quartus/mux2tristate/simulation/qsim
+vmux2tri
+Z1 !s110 1648574834
+!i10b 1
+!s100 WL`T3j?k4H>9kIOd?k<W;3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ISiG^?El6434Al@2PTJKE:0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1648574833
+8mux2tri.vo
+Fmux2tri.vo
+!i122 2
+L0 32 291
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1648574834.000000
+!s107 mux2tri.vo|
+!s90 -work|work|mux2tri.vo|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vmux2tri_vlg_vec_tst
+R1
+!i10b 1
+!s100 1OX`g=[ac9?a@:6M`J78h2
+R2
+Ia`_b<zl6S?CGQ_3H<d[dd0
+R3
+R0
+R4
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 70
+R5
+r1
+!s85 0
+31
+R6
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R7
+R8

@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Leonel/Documents/UTM/Semestre4/ComputoReconfigurable/Quartus/divisordeFrecuencia/divclk2.sv
+source_file = 1, C:/Users/Leonel/Documents/UTM/Semestre4/ComputoReconfigurable/Quartus/divisordeFrecuencia/Waveform.vwf
+source_file = 1, C:/Users/Leonel/Documents/UTM/Semestre4/ComputoReconfigurable/Quartus/divisordeFrecuencia/db/divclk2.cbx.xml
+design_name = divclk2
+instance = comp, \clk2~output , clk2~output, divclk2, 1
+instance = comp, \clk~input , clk~input, divclk2, 1
+instance = comp, \reset~input , reset~input, divclk2, 1
+instance = comp, \clk2~0 , clk2~0, divclk2, 1
+instance = comp, \clk2~reg0 , clk2~reg0, divclk2, 1

@@ -1,0 +1,4 @@
+module mul8c(	input logic [7:0] a,b, //Declaramos los valores de entrada 
+					output logic [15:0] y);	//Valores de salida
+		shacc 
+endmodule

@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Leonel/Documents/UTM/Semestre4/ComputoReconfigurable/Quartus/adder/simulation/qsim
+vadder
+!s110 1648229621
+!i10b 1
+!s100 o[3f^`O0g:CI^NGj<9:V;1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IL15Zm@:6m30Y?eVYIKSfb1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1648229617
+8adder.vo
+Fadder.vo
+!i122 0
+L0 32 2132
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1648229621.000000
+!s107 adder.vo|
+!s90 -work|work|adder.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vadder_vlg_vec_tst
+!s110 1648229622
+!i10b 1
+!s100 7hD2leSh]_OM`AT6hn<z<3
+R1
+I[fOBeM@V3:7KZ;E@XJ;AP2
+R2
+R0
+w1648229616
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 563
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

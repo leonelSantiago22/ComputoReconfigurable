@@ -1,0 +1,463 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "03/25/2022 11:47:14"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          mux2
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module mux2_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [3:0] d0;
+reg [3:0] d1;
+reg s;
+// wires                                               
+wire [3:0] y;
+
+// assign statements (if any)                          
+mux2 i1 (
+// port map - connection between master ports and signals/registers   
+	.d0(d0),
+	.d1(d1),
+	.s(s),
+	.y(y)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+// d0[ 3 ]
+initial
+begin
+	d0[3] = 1'b1;
+end 
+// d0[ 2 ]
+initial
+begin
+	d0[2] = 1'b0;
+end 
+// d0[ 1 ]
+initial
+begin
+	d0[1] = 1'b1;
+end 
+// d0[ 0 ]
+initial
+begin
+	d0[0] = 1'b0;
+end 
+// d1[ 3 ]
+initial
+begin
+	d1[3] = 1'b0;
+end 
+// d1[ 2 ]
+initial
+begin
+	d1[2] = 1'b1;
+end 
+// d1[ 1 ]
+initial
+begin
+	d1[1] = 1'b0;
+end 
+// d1[ 0 ]
+initial
+begin
+	d1[0] = 1'b1;
+end 
+
+// s
+initial
+begin
+	s = 1'b1;
+	# 2140;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #4267 1'b1;
+		# 2399;
+	end
+	s = 1'b0;
+	s = #4267 1'b1;
+	s = #5332 1'b0;
+	s = #4800 1'b1;
+	s = #129 1'b0;
+	s = #2923 1'b1;
+	s = #1950 1'b0;
+	s = #3050 1'b1;
+	s = #1950 1'b0;
+	s = #3124 1'b1;
+	s = #1500 1'b0;
+	s = #3500 1'b1;
+	s = #1500 1'b0;
+	s = #9870 1'b1;
+	s = #7800 1'b0;
+	s = #2833 1'b1;
+	s = #2499 1'b0;
+	s = #5400 1'b1;
+	s = #2832 1'b0;
+	s = #9800 1'b1;
+	s = #16114 1'b0;
+	s = #13200 1'b1;
+	s = #155 1'b0;
+	s = #1768 1'b1;
+	# 3466;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #3200 1'b1;
+		# 3466;
+	end
+	s = 1'b0;
+	s = #1434 1'b1;
+	s = #1466 1'b0;
+	s = #10800 1'b1;
+	s = #7734 1'b0;
+	s = #1850 1'b1;
+	s = #4500 1'b0;
+	s = #5500 1'b1;
+	s = #4500 1'b0;
+	s = #6769 1'b1;
+	# 3066;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #3600 1'b1;
+		# 3066;
+	end
+	s = 1'b0;
+	s = #3097 1'b1;
+	# 3266;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #3400 1'b1;
+		# 3266;
+	end
+	s = 1'b0;
+	s = #788 1'b1;
+	s = #1766 1'b0;
+	s = #2700 1'b1;
+	s = #2300 1'b0;
+	s = #2700 1'b1;
+	s = #727 1'b0;
+	s = #2867 1'b1;
+	s = #3799 1'b0;
+	s = #2867 1'b1;
+	s = #3799 1'b0;
+	s = #2867 1'b1;
+	s = #3608 1'b0;
+	s = #1863 1'b1;
+	s = #7200 1'b0;
+	s = #13584 1'b1;
+	s = #1500 1'b0;
+	s = #3500 1'b1;
+	s = #1500 1'b0;
+	s = #853 1'b1;
+	# 1268;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #2934 1'b1;
+		# 3732;
+	end
+	s = 1'b0;
+	s = #2934 1'b1;
+	s = #2466 1'b0;
+	s = #3759 1'b1;
+	s = #3400 1'b0;
+	s = #6600 1'b1;
+	s = #3400 1'b0;
+	s = #2841 1'b1;
+	s = #1912 1'b0;
+	s = #3050 1'b1;
+	s = #1950 1'b0;
+	s = #3050 1'b1;
+	s = #1969 1'b0;
+	s = #10800 1'b1;
+	s = #7269 1'b0;
+	s = #909 1'b1;
+	# 1866;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #1467 1'b1;
+		# 1866;
+	end
+	s = 1'b0;
+	s = #662 1'b1;
+	# 1466;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #1867 1'b1;
+		# 1466;
+	end
+	s = 1'b0;
+	s = #1765 1'b1;
+	s = #1684 1'b0;
+	s = #3150 1'b1;
+	s = #1850 1'b0;
+	s = #3150 1'b1;
+	s = #166 1'b0;
+	s = #2048 1'b1;
+	# 1099;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #2234 1'b1;
+		# 1099;
+	end
+	s = 1'b0;
+	s = #187 1'b1;
+	s = #899 1'b0;
+	s = #2950 1'b1;
+	s = #2050 1'b0;
+	s = #2950 1'b1;
+	s = #2446 1'b0;
+	s = #1534 1'b1;
+	s = #1799 1'b0;
+	s = #1534 1'b1;
+	s = #1799 1'b0;
+	s = #1534 1'b1;
+	s = #505 1'b0;
+	s = #418 1'b1;
+	# 2666;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #4000 1'b1;
+		# 2666;
+	end
+	s = 1'b0;
+	s = #5044 1'b1;
+	s = #3600 1'b0;
+	s = #10881 1'b1;
+	s = #10800 1'b0;
+	s = #3465 1'b1;
+	s = #9400 1'b0;
+	s = #19380 1'b1;
+	s = #7000 1'b0;
+	s = #4014 1'b1;
+	s = #2974 1'b0;
+	s = #4500 1'b1;
+	s = #2526 1'b0;
+	s = #2001 1'b1;
+	s = #11600 1'b0;
+	s = #10775 1'b1;
+	# 2133;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #4533 1'b1;
+		# 2133;
+	end
+	s = 1'b0;
+	s = #913 1'b1;
+	# 2133;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #4533 1'b1;
+		# 2133;
+	end
+	s = 1'b0;
+	s = #3781 1'b1;
+	# 2607;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #3667 1'b1;
+		# 2999;
+	end
+	s = 1'b0;
+	s = #3667 1'b1;
+	s = #394 1'b0;
+	s = #5831 1'b1;
+	s = #11400 1'b0;
+	s = #5087 1'b1;
+	s = #1600 1'b0;
+	s = #3400 1'b1;
+	s = #1600 1'b0;
+	s = #4824 1'b1;
+	s = #5900 1'b0;
+	s = #358 1'b1;
+	# 903;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #1867 1'b1;
+		# 1466;
+	end
+	s = 1'b0;
+	s = #1867 1'b1;
+	s = #564 1'b0;
+	s = #1471 1'b1;
+	# 1233;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #2100 1'b1;
+		# 1233;
+	end
+	s = 1'b0;
+	s = #1039 1'b1;
+	# 2733;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #3933 1'b1;
+		# 2733;
+	end
+	s = 1'b0;
+	s = #4869 1'b1;
+	s = #1600 1'b0;
+	s = #3400 1'b1;
+	s = #1600 1'b0;
+	s = #2057 1'b1;
+	s = #4545 1'b0;
+	s = #9600 1'b1;
+	s = #5855 1'b0;
+	s = #320 1'b1;
+	s = #2050 1'b0;
+	s = #2950 1'b1;
+	s = #2050 1'b0;
+	s = #2751 1'b1;
+	# 1599;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #1734 1'b1;
+		# 1599;
+	end
+	s = 1'b0;
+	s = #1614 1'b1;
+	# 474;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #1367 1'b1;
+		# 1966;
+	end
+	s = 1'b0;
+	s = #1367 1'b1;
+	s = #2769 1'b0;
+	s = #4300 1'b1;
+	s = #4424 1'b0;
+	s = #456 1'b1;
+	s = #4000 1'b0;
+	s = #5544 1'b1;
+	# 2518;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #3800 1'b1;
+		# 2866;
+	end
+	s = 1'b0;
+	s = #3800 1'b1;
+	s = #5931 1'b0;
+	s = #11400 1'b1;
+	s = #3019 1'b0;
+	s = #160 1'b1;
+	# 1633;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #1700 1'b1;
+		# 1633;
+	end
+	s = 1'b0;
+	s = #1541 1'b1;
+	s = #3197 1'b0;
+	s = #8800 1'b1;
+	s = #8003 1'b0;
+	s = #5961 1'b1;
+	s = #3000 1'b0;
+	s = #1039 1'b1;
+	# 292;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #3267 1'b1;
+		# 3399;
+	end
+	s = 1'b0;
+	s = #3267 1'b1;
+	s = #5822 1'b0;
+	s = #2734 1'b1;
+	s = #3932 1'b0;
+	s = #2734 1'b1;
+	s = #3932 1'b0;
+	s = #2734 1'b1;
+	s = #4215 1'b0;
+	s = #5400 1'b1;
+	s = #1606 1'b0;
+	s = #3648 1'b1;
+	# 2133;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #4533 1'b1;
+		# 2133;
+	end
+	s = 1'b0;
+	s = #4639 1'b1;
+	s = #10600 1'b0;
+	s = #6078 1'b1;
+	# 1366;
+	repeat(2)
+	begin
+		s = 1'b0;
+		s = #1967 1'b1;
+		# 1366;
+	end
+	s = 1'b0;
+	s = #1538 1'b1;
+	s = #4175 1'b0;
+	s = #4000 1'b1;
+	s = #6000 1'b0;
+	s = #4000 1'b1;
+	s = #1825 1'b0;
+	s = #2863 1'b1;
+	s = #4700 1'b0;
+	s = #5300 1'b1;
+	s = #4700 1'b0;
+	s = #2437 1'b1;
+	s = #3822 1'b0;
+	s = #5800 1'b1;
+	s = #734 1'b0;
+	s = #1600 1'b1;
+	s = #1733 1'b0;
+	s = #1600 1'b1;
+	s = #1733 1'b0;
+	s = #1600 1'b1;
+	s = #1378 1'b0;
+	s = #4203 1'b1;
+	s = #4500 1'b0;
+end 
+endmodule
+

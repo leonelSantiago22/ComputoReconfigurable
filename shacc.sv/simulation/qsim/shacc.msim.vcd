@@ -1,0 +1,352 @@
+$comment
+	File created using the following command:
+		vcd file shacc.msim.vcd -direction
+$end
+$date
+	Thu Mar 31 11:12:11 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module shacc_vlg_vec_tst $end
+$var reg 16 ! in_acc [15:0] $end
+$var reg 16 " in_sh1 [15:0] $end
+$var reg 16 # in_sh2 [15:0] $end
+$var wire 1 $ out_acc [15] $end
+$var wire 1 % out_acc [14] $end
+$var wire 1 & out_acc [13] $end
+$var wire 1 ' out_acc [12] $end
+$var wire 1 ( out_acc [11] $end
+$var wire 1 ) out_acc [10] $end
+$var wire 1 * out_acc [9] $end
+$var wire 1 + out_acc [8] $end
+$var wire 1 , out_acc [7] $end
+$var wire 1 - out_acc [6] $end
+$var wire 1 . out_acc [5] $end
+$var wire 1 / out_acc [4] $end
+$var wire 1 0 out_acc [3] $end
+$var wire 1 1 out_acc [2] $end
+$var wire 1 2 out_acc [1] $end
+$var wire 1 3 out_acc [0] $end
+$var wire 1 4 out_sh1 [15] $end
+$var wire 1 5 out_sh1 [14] $end
+$var wire 1 6 out_sh1 [13] $end
+$var wire 1 7 out_sh1 [12] $end
+$var wire 1 8 out_sh1 [11] $end
+$var wire 1 9 out_sh1 [10] $end
+$var wire 1 : out_sh1 [9] $end
+$var wire 1 ; out_sh1 [8] $end
+$var wire 1 < out_sh1 [7] $end
+$var wire 1 = out_sh1 [6] $end
+$var wire 1 > out_sh1 [5] $end
+$var wire 1 ? out_sh1 [4] $end
+$var wire 1 @ out_sh1 [3] $end
+$var wire 1 A out_sh1 [2] $end
+$var wire 1 B out_sh1 [1] $end
+$var wire 1 C out_sh1 [0] $end
+$var wire 1 D out_sh2 [15] $end
+$var wire 1 E out_sh2 [14] $end
+$var wire 1 F out_sh2 [13] $end
+$var wire 1 G out_sh2 [12] $end
+$var wire 1 H out_sh2 [11] $end
+$var wire 1 I out_sh2 [10] $end
+$var wire 1 J out_sh2 [9] $end
+$var wire 1 K out_sh2 [8] $end
+$var wire 1 L out_sh2 [7] $end
+$var wire 1 M out_sh2 [6] $end
+$var wire 1 N out_sh2 [5] $end
+$var wire 1 O out_sh2 [4] $end
+$var wire 1 P out_sh2 [3] $end
+$var wire 1 Q out_sh2 [2] $end
+$var wire 1 R out_sh2 [1] $end
+$var wire 1 S out_sh2 [0] $end
+
+$scope module i1 $end
+$var wire 1 T gnd $end
+$var wire 1 U vcc $end
+$var wire 1 V unknown $end
+$var tri1 1 W devclrn $end
+$var tri1 1 X devpor $end
+$var tri1 1 Y devoe $end
+$var wire 1 Z in_acc[4]~input_o $end
+$var wire 1 [ in_acc[5]~input_o $end
+$var wire 1 \ in_acc[6]~input_o $end
+$var wire 1 ] in_acc[7]~input_o $end
+$var wire 1 ^ in_acc[8]~input_o $end
+$var wire 1 _ in_acc[9]~input_o $end
+$var wire 1 ` in_acc[10]~input_o $end
+$var wire 1 a in_acc[11]~input_o $end
+$var wire 1 b in_acc[12]~input_o $end
+$var wire 1 c in_acc[13]~input_o $end
+$var wire 1 d in_acc[14]~input_o $end
+$var wire 1 e in_acc[15]~input_o $end
+$var wire 1 f in_sh1[15]~input_o $end
+$var wire 1 g out_acc[0]~output_o $end
+$var wire 1 h out_acc[1]~output_o $end
+$var wire 1 i out_acc[2]~output_o $end
+$var wire 1 j out_acc[3]~output_o $end
+$var wire 1 k out_acc[4]~output_o $end
+$var wire 1 l out_acc[5]~output_o $end
+$var wire 1 m out_acc[6]~output_o $end
+$var wire 1 n out_acc[7]~output_o $end
+$var wire 1 o out_acc[8]~output_o $end
+$var wire 1 p out_acc[9]~output_o $end
+$var wire 1 q out_acc[10]~output_o $end
+$var wire 1 r out_acc[11]~output_o $end
+$var wire 1 s out_acc[12]~output_o $end
+$var wire 1 t out_acc[13]~output_o $end
+$var wire 1 u out_acc[14]~output_o $end
+$var wire 1 v out_acc[15]~output_o $end
+$var wire 1 w out_sh1[0]~output_o $end
+$var wire 1 x out_sh1[1]~output_o $end
+$var wire 1 y out_sh1[2]~output_o $end
+$var wire 1 z out_sh1[3]~output_o $end
+$var wire 1 { out_sh1[4]~output_o $end
+$var wire 1 | out_sh1[5]~output_o $end
+$var wire 1 } out_sh1[6]~output_o $end
+$var wire 1 ~ out_sh1[7]~output_o $end
+$var wire 1 !! out_sh1[8]~output_o $end
+$var wire 1 "! out_sh1[9]~output_o $end
+$var wire 1 #! out_sh1[10]~output_o $end
+$var wire 1 $! out_sh1[11]~output_o $end
+$var wire 1 %! out_sh1[12]~output_o $end
+$var wire 1 &! out_sh1[13]~output_o $end
+$var wire 1 '! out_sh1[14]~output_o $end
+$var wire 1 (! out_sh1[15]~output_o $end
+$var wire 1 )! out_sh2[0]~output_o $end
+$var wire 1 *! out_sh2[1]~output_o $end
+$var wire 1 +! out_sh2[2]~output_o $end
+$var wire 1 ,! out_sh2[3]~output_o $end
+$var wire 1 -! out_sh2[4]~output_o $end
+$var wire 1 .! out_sh2[5]~output_o $end
+$var wire 1 /! out_sh2[6]~output_o $end
+$var wire 1 0! out_sh2[7]~output_o $end
+$var wire 1 1! out_sh2[8]~output_o $end
+$var wire 1 2! out_sh2[9]~output_o $end
+$var wire 1 3! out_sh2[10]~output_o $end
+$var wire 1 4! out_sh2[11]~output_o $end
+$var wire 1 5! out_sh2[12]~output_o $end
+$var wire 1 6! out_sh2[13]~output_o $end
+$var wire 1 7! out_sh2[14]~output_o $end
+$var wire 1 8! out_sh2[15]~output_o $end
+$var wire 1 9! in_sh2[0]~input_o $end
+$var wire 1 :! in_acc[0]~input_o $end
+$var wire 1 ;! in_sh1[0]~input_o $end
+$var wire 1 <! Add0~1_sumout $end
+$var wire 1 =! M|y[0]~0_combout $end
+$var wire 1 >! in_acc[1]~input_o $end
+$var wire 1 ?! in_sh1[1]~input_o $end
+$var wire 1 @! Add0~2 $end
+$var wire 1 A! Add0~5_sumout $end
+$var wire 1 B! M|y[1]~1_combout $end
+$var wire 1 C! in_acc[2]~input_o $end
+$var wire 1 D! in_sh1[2]~input_o $end
+$var wire 1 E! Add0~6 $end
+$var wire 1 F! Add0~9_sumout $end
+$var wire 1 G! M|y[2]~2_combout $end
+$var wire 1 H! in_acc[3]~input_o $end
+$var wire 1 I! in_sh1[3]~input_o $end
+$var wire 1 J! Add0~10 $end
+$var wire 1 K! Add0~13_sumout $end
+$var wire 1 L! M|y[3]~3_combout $end
+$var wire 1 M! in_sh1[4]~input_o $end
+$var wire 1 N! in_sh1[5]~input_o $end
+$var wire 1 O! in_sh1[6]~input_o $end
+$var wire 1 P! in_sh1[7]~input_o $end
+$var wire 1 Q! in_sh1[8]~input_o $end
+$var wire 1 R! in_sh1[9]~input_o $end
+$var wire 1 S! in_sh1[10]~input_o $end
+$var wire 1 T! in_sh1[11]~input_o $end
+$var wire 1 U! in_sh1[12]~input_o $end
+$var wire 1 V! in_sh1[13]~input_o $end
+$var wire 1 W! in_sh1[14]~input_o $end
+$var wire 1 X! in_sh2[1]~input_o $end
+$var wire 1 Y! in_sh2[2]~input_o $end
+$var wire 1 Z! in_sh2[3]~input_o $end
+$var wire 1 [! in_sh2[4]~input_o $end
+$var wire 1 \! in_sh2[5]~input_o $end
+$var wire 1 ]! in_sh2[6]~input_o $end
+$var wire 1 ^! in_sh2[7]~input_o $end
+$var wire 1 _! in_sh2[8]~input_o $end
+$var wire 1 `! in_sh2[9]~input_o $end
+$var wire 1 a! in_sh2[10]~input_o $end
+$var wire 1 b! in_sh2[11]~input_o $end
+$var wire 1 c! in_sh2[12]~input_o $end
+$var wire 1 d! in_sh2[13]~input_o $end
+$var wire 1 e! in_sh2[14]~input_o $end
+$var wire 1 f! in_sh2[15]~input_o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100 !
+b100 "
+b101 #
+03
+02
+01
+10
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0C
+0B
+0A
+1@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+0S
+1R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0T
+1U
+xV
+1W
+1X
+1Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+1j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+0s
+0t
+0u
+0v
+0w
+0x
+0y
+1z
+0{
+0|
+0}
+0~
+0!!
+0"!
+0#!
+0$!
+0%!
+0&!
+0'!
+0(!
+0)!
+1*!
+0+!
+0,!
+0-!
+0.!
+0/!
+00!
+01!
+02!
+03!
+04!
+05!
+06!
+07!
+08!
+19!
+0:!
+0;!
+0<!
+0=!
+0>!
+0?!
+0@!
+0A!
+0B!
+1C!
+1D!
+0E!
+0F!
+0G!
+0H!
+0I!
+1J!
+1K!
+1L!
+0M!
+0N!
+0O!
+0P!
+0Q!
+0R!
+0S!
+0T!
+0U!
+0V!
+0W!
+0X!
+1Y!
+0Z!
+0[!
+0\!
+0]!
+0^!
+0_!
+0`!
+0a!
+0b!
+0c!
+0d!
+0e!
+0f!
+$end
+#1000000

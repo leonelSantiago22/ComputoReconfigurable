@@ -1,0 +1,103 @@
+$comment
+	File created using the following command:
+		vcd file SillyFuction.msim.vcd -direction
+$end
+$date
+	Thu Mar 24 11:48:54 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module SillyFuction_vlg_vec_tst $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # c $end
+$var wire 1 $ y $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 , a~input_o $end
+$var wire 1 - b~input_o $end
+$var wire 1 . c~input_o $end
+$var wire 1 / y~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+1$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+0,
+0-
+0.
+1/
+$end
+#100000
+1#
+1.
+0/
+0$
+#200000
+1"
+0#
+1-
+0.
+#300000
+1#
+1.
+#400000
+1!
+0"
+0#
+1,
+0-
+0.
+1/
+1$
+#500000
+1#
+1.
+#600000
+1"
+0#
+1-
+0.
+0/
+0$
+#700000
+1#
+1.
+#800000
+0!
+0"
+0#
+0,
+0-
+0.
+1/
+1$
+#900000
+1#
+1.
+0/
+0$
+#1000000
