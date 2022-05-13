@@ -1,0 +1,217 @@
+$comment
+	File created using the following command:
+		vcd file regcor8.msim.vcd -direction
+$end
+$date
+	Mon May 09 16:11:51 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module regcor8_vlg_vec_tst $end
+$var reg 1 ! clk $end
+$var reg 1 " load $end
+$var reg 1 # reset $end
+$var reg 8 $ value [7:0] $end
+$var wire 1 % op [7] $end
+$var wire 1 & op [6] $end
+$var wire 1 ' op [5] $end
+$var wire 1 ( op [4] $end
+$var wire 1 ) op [3] $end
+$var wire 1 * op [2] $end
+$var wire 1 + op [1] $end
+$var wire 1 , op [0] $end
+
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 clk~input_o $end
+$var wire 1 4 reset~input_o $end
+$var wire 1 5 value[0]~input_o $end
+$var wire 1 6 value[1]~input_o $end
+$var wire 1 7 value[2]~input_o $end
+$var wire 1 8 value[3]~input_o $end
+$var wire 1 9 value[4]~input_o $end
+$var wire 1 : value[5]~input_o $end
+$var wire 1 ; value[6]~input_o $end
+$var wire 1 < value[7]~input_o $end
+$var wire 1 = load~input_o $end
+$var wire 1 > op[0]~output_o $end
+$var wire 1 ? op[1]~output_o $end
+$var wire 1 @ op[2]~output_o $end
+$var wire 1 A op[3]~output_o $end
+$var wire 1 B op[4]~output_o $end
+$var wire 1 C op[5]~output_o $end
+$var wire 1 D op[6]~output_o $end
+$var wire 1 E op[7]~output_o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1#
+b1 $
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0-
+1.
+x/
+10
+11
+12
+03
+14
+15
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+$end
+#25000
+1!
+13
+#50000
+0!
+03
+#75000
+1!
+13
+#100000
+0#
+0!
+04
+03
+#125000
+1!
+13
+#150000
+0!
+03
+#175000
+1!
+13
+#200000
+0!
+03
+#225000
+1!
+13
+#250000
+0!
+03
+#275000
+1!
+13
+#300000
+0!
+03
+#325000
+1!
+13
+#350000
+0!
+03
+#375000
+1!
+13
+#400000
+0!
+03
+#425000
+1!
+13
+#450000
+0!
+03
+#475000
+1!
+13
+#500000
+0!
+03
+#525000
+1!
+13
+#550000
+0!
+03
+#575000
+1!
+13
+#600000
+0!
+03
+#625000
+1!
+13
+#650000
+0!
+03
+#675000
+1!
+13
+#700000
+0!
+03
+#725000
+1!
+13
+#750000
+0!
+03
+#775000
+1!
+13
+#800000
+0!
+03
+#825000
+1!
+13
+#850000
+0!
+03
+#875000
+1!
+13
+#900000
+0!
+03
+#925000
+1!
+13
+#950000
+0!
+03
+#975000
+1!
+13
+#1000000

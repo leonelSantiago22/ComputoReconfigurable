@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Leonel/Documents/UTM/Semestre4/ComputoReconfigurable/Quartus/sieteseg/simulation/qsim
+vsevenseg
+Z1 !s110 1651529655
+!i10b 1
+!s100 czQ<[n?Fd:zLJeVH0eXeR0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3TOL6oP=mXYUT[JUDdC0<2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1651529654
+8sevenseg.vo
+Fsevenseg.vo
+!i122 24
+L0 32 1771
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1651529655.000000
+!s107 sevenseg.vo|
+!s90 -work|work|sevenseg.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vsevenseg_vlg_vec_tst
+R1
+!i10b 1
+!s100 0QadOk:_Tf?SB1XD2DNJH1
+R2
+I5Xo@dVm:f?Bb2dkYNi8JL3
+R3
+R0
+w1651529653
+8Waveform6.vwf.vt
+FWaveform6.vwf.vt
+!i122 25
+L0 30 36
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform6.vwf.vt|
+!s90 -work|work|Waveform6.vwf.vt|
+!i113 1
+R6
+R7

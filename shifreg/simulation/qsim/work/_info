@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Leonel/Documents/UTM/Semestre4/ComputoReconfigurable/Quartus/shifreg/simulation/qsim
+vshifreg
+Z1 !s110 1651250022
+!i10b 1
+!s100 XbW1I3F[G;X;:ObNeBKcY2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IARR3jdf36I@IblGT1kcHM3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1651250018
+8shifreg.vo
+Fshifreg.vo
+!i122 0
+L0 32 380
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1651250021.000000
+!s107 shifreg.vo|
+!s90 -work|work|shifreg.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vshifreg_vlg_vec_tst
+R1
+!i10b 1
+!s100 OEAFEHbc`L@5_eiEo88:K1
+R2
+IYKhjOF>6RBm<IFEKANEf:2
+R3
+R0
+w1651250017
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 139
+R4
+r1
+!s85 0
+31
+!s108 1651250022.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

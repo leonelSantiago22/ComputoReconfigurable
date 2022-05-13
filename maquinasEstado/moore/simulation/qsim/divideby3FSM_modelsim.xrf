@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Leonel/Documents/UTM/Semestre4/ComputoReconfigurable/Quartus/maquinasEstado/moore/divideby3FSM.sv
+source_file = 1, C:/Users/Leonel/Documents/UTM/Semestre4/ComputoReconfigurable/Quartus/maquinasEstado/moore/db/divideby3FSM.cbx.xml
+design_name = divideby3FSM
+instance = comp, \y~output , y~output, divideby3FSM, 1
+instance = comp, \clk~input , clk~input, divideby3FSM, 1
+instance = comp, \reset~input , reset~input, divideby3FSM, 1
+instance = comp, \state~9 , state~9, divideby3FSM, 1
+instance = comp, \state.01 , state.01, divideby3FSM, 1
+instance = comp, \state~8 , state~8, divideby3FSM, 1
+instance = comp, \state.10 , state.10, divideby3FSM, 1
+instance = comp, \state~7 , state~7, divideby3FSM, 1
+instance = comp, \state.00 , state.00, divideby3FSM, 1

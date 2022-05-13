@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Leonel/Documents/UTM/Semestre4/ComputoReconfigurable/Quartus/maquinasEstado/moore/simulation/qsim
+vdivideby3FSM
+Z1 !s110 1651769434
+!i10b 1
+!s100 L4@87NhjCNFfH<UVNOPJe0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IbKC77?;OZTH9]J=eN1[nb2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1651769432
+8divideby3FSM.vo
+Fdivideby3FSM.vo
+!i122 0
+L0 32 191
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1651769434.000000
+!s107 divideby3FSM.vo|
+!s90 -work|work|divideby3FSM.vo|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+ndivideby3@f@s@m
+vdivideby3FSM_vlg_vec_tst
+R1
+!i10b 1
+!s100 4[k8^h7`21Q@JaCkcM8>>1
+R2
+IF<@1QI<d;:[TH1M7=6ilb1
+R3
+R0
+R4
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 35
+R5
+r1
+!s85 0
+31
+R6
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R7
+R8
+ndivideby3@f@s@m_vlg_vec_tst
