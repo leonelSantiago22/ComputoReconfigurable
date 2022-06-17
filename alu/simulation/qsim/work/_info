@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Leonel/Documents/UTM/Semestre4/ComputoReconfigurable/Quartus/alu/simulation/qsim
+valu
+!s110 1654706967
+!i10b 1
+!s100 B:z86On7V^^85P7GWXmBU3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IhNj`Y3@83;l2G@fdXmR3K2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1654706964
+8alu.vo
+Falu.vo
+!i122 0
+L0 32 1043
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1654706967.000000
+!s107 alu.vo|
+!s90 -work|work|alu.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+valu_vlg_vec_tst
+!s110 1654706968
+!i10b 1
+!s100 :SR6QRKAkzI9iAoc^=^;i2
+R1
+IX?GWBUf_GedzZcPf9Ai1^2
+R2
+R0
+w1654706962
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 273
+R3
+r1
+!s85 0
+31
+!s108 1654706968.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+R5

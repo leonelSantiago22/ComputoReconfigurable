@@ -1,0 +1,12 @@
+module memprog#(parameter N=8)
+(
+			input logic clk,
+			input logic [2:0] adr.
+			input logic [3*N+3-1:0] dout
+);
+
+always_ff(posedge clk)
+	case(adr)
+		2'b00:	dout = {000,{N{1'b000}, {N{1'b101}},{N{1'bxxx}}};
+	endcase
+endmodule

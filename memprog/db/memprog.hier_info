@@ -1,0 +1,35 @@
+|memprog
+adr[0] => Decoder0.IN2
+adr[1] => Decoder0.IN1
+adr[1] => Decoder1.IN1
+adr[2] => Decoder0.IN0
+adr[2] => Decoder1.IN0
+dout[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+dout[1] <= <GND>
+dout[2] <= <GND>
+dout[3] <= <GND>
+dout[4] <= <GND>
+dout[5] <= <GND>
+dout[6] <= <GND>
+dout[7] <= <GND>
+dout[8] <= Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+dout[9] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+dout[10] <= Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+dout[11] <= <GND>
+dout[12] <= <GND>
+dout[13] <= <GND>
+dout[14] <= <GND>
+dout[15] <= <GND>
+dout[16] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+dout[17] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+dout[18] <= <GND>
+dout[19] <= <GND>
+dout[20] <= <GND>
+dout[21] <= <GND>
+dout[22] <= <GND>
+dout[23] <= <GND>
+dout[24] <= <GND>
+dout[25] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+dout[26] <= <GND>
+
+

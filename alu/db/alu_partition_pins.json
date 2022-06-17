@@ -1,0 +1,121 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "zero",
+					"strict" : false
+				},
+				{
+					"name" : "ALURESULT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ALURESULT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALURESULT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ALURESULT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ALURESULT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ALURESULT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ALURESULT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ALURESULT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "operador2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "operador1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AluOp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AluOp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AluOp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "operador2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "operador1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "operador2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "operador1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "operador2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "operador1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "operador2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "operador1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "operador2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "operador1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "operador2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "operador1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "operador2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "operador1[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
